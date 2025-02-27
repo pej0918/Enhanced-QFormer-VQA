@@ -34,5 +34,4 @@ This structure combines **Answer Candidates** with confidence scores and **Answe
 - **6.9% accuracy improvement** on KB-VQA tasks.
 - Demonstrated robust performance without extensive fine-tuning.
 
-For full code and implementation details, visit the GitHub repository: [Enhanced Q-Former for VQA](https://github.com/pej0918/Enhanced-QFormer-VQA).
 
