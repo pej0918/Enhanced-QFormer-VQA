@@ -15,7 +15,8 @@ The architecture integrates **MCAN** and **Question-Aware Prompts** into the **Q
 
 ## ⚙️ Methodology
 1. **Q-Former & MCAN Integration:** Combines initial cross-modal interaction with deep multi-layer attention.
-2. **Fine-Tuning with Question-Aware Prompts:** Utilizes answer candidates and answer-aware examples to boost context understanding.
+2. **Fine-Tuning with Question-Aware Prompts:** Utilizes answer candidates and answer-aware examples to boost context understanding during Fine-Tuning phase.
+![Fine-Tuning Structure](imgs/model_finetuning.png)
 
 ### 📊 Question-Aware Prompt Structure
 
@@ -29,9 +30,5 @@ This structure combines **Answer Candidates** with confidence scores and **Answe
 | Q-Former        | 49.2%                     | 55.65%                          |
 | MCAN            | **52.56%**                | -                                |
 | Ours            | 50%                       | **56.1%**                        |
-
-## 🎯 Conclusion
-- **6.9% accuracy improvement** on KB-VQA tasks.
-- Demonstrated robust performance without extensive fine-tuning.
 
 
