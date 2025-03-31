@@ -1,4 +1,5 @@
 # Enhancing Q-Former for Knowledge-Based Visual Question Answering with Multi-Layer Co-Attention and Question-Aware Prompts
+> 📣 Accepted at **Autumn Annual Conference of IEIE**, 2024.
 
 In **Knowledge-Based Visual Question Answering (KB-VQA)**, models must interpret both visual data and external knowledge to answer complex questions accurately. Our approach extends **Q-Former**, known for its foundational Cross-Attention mechanism for visual feature extraction, by integrating it with **MCAN** (Multimodal Co-Attention Network) and incorporating **Question-Aware Prompts** during fine-tuning. This structure not only strengthens the model’s understanding of question-image relationships but also leverages past interactions to improve overall answer accuracy.
 
